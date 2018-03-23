@@ -149,7 +149,7 @@ tidyData <- summarise_all(tidyData,.funs = mean)
 # Writing the tidy data set into a txt file
 #
 
-write.table(tidydata, file = "tidyData.txt", row.names = FALSE)
+write.table(tidyData, file = "tidyData.txt", row.names = FALSE)
 
 
 
