@@ -153,7 +153,7 @@ write.table(tidyData, file = "tidyData.txt", row.names = FALSE)
 
 
 
-tidyD <- read.table("tidyData.txt", header = TRUE)
+
 
 
 
